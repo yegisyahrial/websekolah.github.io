@@ -1,0 +1,203 @@
+/* Header Top */
+.header-top {
+  background-color: #003459;
+  padding: 10px 0px;
+}
+
+/* Carousel */
+#carousel {
+  margin: 0px;
+}
+
+#carousel .carousel-item {
+  height: 500px;
+}
+
+#carousel .carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 500px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #e1e1e1;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #003459;
+}
+
+#buttoncarousel {
+  background-color: #003459;
+  border-radius: 50%;
+  width: 3vh;
+  height: 3vh;
+}
+
+/* Berita */
+#beritaslider .carousel-indicators {
+  bottom: -8vh;
+}
+
+.berita {
+  background-color: #eaeaea;
+  padding-bottom: 10vh;
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  border-radius: 0;
+}
+
+.card-text a {
+  background-color: red;
+}
+
+/* Counter */
+.counter-box {
+  display: block;
+  background: #003459;
+  padding: 40px 20px 37px;
+  text-align: center;
+}
+
+.counter-box p {
+  margin: 5px 0 0;
+  padding: 0;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.counter-box i {
+  font-size: 60px;
+  margin: 0 0 15px;
+  color: white;
+}
+
+.counter {
+  display: block;
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+  line-height: 28px;
+}
+
+.counter-box.colored p,
+.counter-box.colored i,
+.counter-box.colored .counter {
+  color: #fff;
+}
+
+/* Gallery */
+
+#gallery .carousel-indicators {
+  bottom: -8vh;
+}
+
+.gallery {
+  background-color: #eaeaea;
+  padding-bottom: 10vh;
+}
+
+.gallery img {
+  transition: 0.3s;
+}
+
+.gallery img:hover {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transform: scale(1.1);
+  cursor: zoom-in;
+}
+
+/* Footer */
+
+footer {
+  background-color: white;
+}
+
+/* Icon Social */
+a .bi {
+  color: white;
+  transition: 0.5s;
+  font-size: 14px;
+}
+
+a .bi:hover {
+  font-size: 16px;
+  color: #007fda;
+}
+
+footer a .bi {
+  color: #003459;
+  transition: 0.5s;
+  font-size: 24px;
+}
+
+footer a .bi:hover {
+  font-size: 26px;
+  color: #007fda;
+}
+
+.copy {
+  background-color: #003459;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px 0px;
+}
+
+/* Size Device */
+
+/* Medium Device */
+
+@media (max-width: 768px) {
+  /* Carousel */
+  #carousel .carousel-item {
+    height: 350px;
+  }
+
+  #carousel .carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 350px;
+  }
+
+  /* Berita */
+  .card-text {
+    font-size: 12px;
+  }
+}
+
+/* Small Device */
+@media (max-width: 576px) {
+  /* Carousel */
+  #carousel .carousel-item {
+    height: 250px;
+  }
+
+  #carousel .carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 250px;
+  }
+}
